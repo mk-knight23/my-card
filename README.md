@@ -1,6 +1,8 @@
 # A secure password/passphrase generator
 
-# DEMO :
+# DEMO : https://my-card.vercel.app
+
+
 1. Set your parameters
 2. Choose a secret, any will do
 3. Click to copy
