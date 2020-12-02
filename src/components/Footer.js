@@ -1,13 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
-import { ReactComponent as Heart } from 'images/heart.svg';
+import React from "react";
+import styled from "styled-components";
+import { ReactComponent as Heart } from "images/heart.svg";
 
 const StyledContainer = styled.div`
   padding: 3rem 0;
   text-align: center;
   font-size: 0.7em;
   .v {
-    font-family: ${p => p.theme.fontFixed};
+    font-family: ${(p) => p.theme.fontFixed};
   }
   svg {
     height: 1em;
@@ -19,16 +19,15 @@ const StyledContainer = styled.div`
 const Footer = () => {
   return (
     <StyledContainer>
-      Design with{' '}
+      Design with{" "}
       <span role="img" aria-label="love">
         <Heart />
-      </span>{' '}
-      by{' '}
-      <a href="https://jquerypluginsfree.com/" title="Jquery Plugins Free">
-       Jquery Plugins Free
+      </span>{" "}
+      by{" "}
+      <a href="https://github.com/mk-knight23" title="mk">
+        MK KNGHT
       </a>
-      <br />{' '}
-
+      <br />{" "}
     </StyledContainer>
   );
 };
