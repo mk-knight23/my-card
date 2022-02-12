@@ -1,4 +1,4 @@
-# A secure password/passphrase generator
+# A secure password/passphrase generator Project
 
 # DEMO : https://my-card.vercel.app
 
